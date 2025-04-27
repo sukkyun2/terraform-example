@@ -1,0 +1,32 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform lock file (optional, depends on your workflow)
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+
+# Exclude plan files
+*.tfplan
+
+# Exclude override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local .terraform directory, where providers are cached
+.terraform/
+
+# Terraform variable files (optional, if you are storing sensitive variables here)
+*.tfvars
+*.tfvars.json
+
+# Ignore IDE and editor specific files
+.idea/
+.vscode/
+
+# MacOS system files
+.DS_Store
