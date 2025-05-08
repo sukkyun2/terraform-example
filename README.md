@@ -1,5 +1,3 @@
-# terraform-example
-
 ## 📁 구조
 ```shell
 terraform-study/
@@ -24,7 +22,6 @@ terraform-study/
 
 ## 📦 모듈 구성
 ### 🔌 network
-- 네트워크 인프라 구성에 사용
 - VPC
 - Public & Private Subnets
 - Internet Gateway
@@ -34,10 +31,9 @@ terraform-study/
 - Subnet Route Table Associations
 
 ### 🚀 service
-- 애플리케이션 서비스 구성
 - Application Load Balancer (ALB)
 - Target Group
-- EC2 인스턴스 (Private Subnet 배치)
+- EC2 Instances
 
 ### 🛢 database
 - RDS
